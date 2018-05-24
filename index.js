@@ -3,6 +3,7 @@ const katzDeli = [];
 function takeANumber(line) {
   let i = 1;
   line.push(i);
+  i++
   return `Welcome! You are number ${i}.`;
 }
 
