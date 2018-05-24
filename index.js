@@ -4,7 +4,7 @@ var i = 1;
 function takeANumber(line) {
   line.push(i);
   i++
-  return `Welcome! You are number ${i}.`;
+  return `Welcome! You are number ${i - 1}.`;
 }
 
 function nowServing(line) {
