@@ -1,4 +1,4 @@
-var katzDeli = [];
+const katzDeli = [];
 
 function takeANumber(line, name) {
   line.push(name);
