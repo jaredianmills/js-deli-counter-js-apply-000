@@ -27,3 +27,7 @@ function currentLine(line) {
     return `The line is currently:${katzDeliLine}`;
   }
 }
+
+katzDeli.push('joe')
+
+console.log(katzDeli)
