@@ -3,7 +3,7 @@ var i = 1;
 
 function takeANumber(line) {
   line.push(i);
-  i++
+  i++;
   return `Welcome! You are number ${i - 1}.`;
 }
 
